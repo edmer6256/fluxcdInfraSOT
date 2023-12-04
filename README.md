@@ -1,7 +1,7 @@
 # fluxcdInfraSOT
 
 # Account used by fluxcd to communicate with SOT.
-export GITHUB_USER=biraderomkar
+export GITHUB_USER=edmer6256
 
 export GITHUB_TOKEN=""
 
