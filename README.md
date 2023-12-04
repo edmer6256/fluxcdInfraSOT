@@ -7,11 +7,11 @@ export GITHUB_TOKEN=""
 
 # Bootstrapping fluxcd toolkits in k8s cluster
 
-flux bootstrap github \
- --owner=$GITHUB_USER \
- --repository=fluxcdInfraSOT \
- --branch=main \
- --path=deployinfra \
+flux bootstrap github \\
+ --owner=$GITHUB_USER \\
+ --repository=fluxcdInfraSOT \\
+ --branch=main \\
+ --path=deployinfra \\
  --personal
 
 # Define source SOT
